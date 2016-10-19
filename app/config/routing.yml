@@ -1,0 +1,4 @@
+oc_platform:
+    resource: "@OCPlatformBundle/Resources/config/routing.yml"
+    prefix:   /platform  # important, ce prefix est ajouté automatiqument dans les path (routes) du bundle, aulieu de mettre dans
+                         # routing bundle /platform/advert/{id} on ecrit /advert/{id} et le reste est rajouté par le systme
